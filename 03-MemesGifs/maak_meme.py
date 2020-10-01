@@ -11,9 +11,9 @@ print(achtergrond.format, achtergrond.size, achtergrond.mode)
 lettertype = ImageFont.truetype("impact.ttf", 40)
 
 tekengebied = ImageDraw.Draw(achtergrond)
-tekst1 = "C H E E S E "
+tekst1 = "ASS"
 tekst2 = "Bottom Text"
-tekengebied.multiline_text((138,10), tekst1, font=lettertype, fill=(1000,1000,1000))
+tekengebied.multiline_text((180,10), tekst1, font=lettertype, fill=(1000,1000,1000))
 tekengebied.multiline_text((131,285), tekst2, font=lettertype, fill=(1000,1000,1000))
 
 achtergrond.show()
